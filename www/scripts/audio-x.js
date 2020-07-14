@@ -1,6 +1,6 @@
 $(function() {
-    var release = 0.5;
-    var attack = 0.5;
+    var release = 0.3;
+    var attack = 0.3;
     var C = new Pizzicato.Sound({ 
         source: 'wave',
         options: {
@@ -201,5 +201,5 @@ $(function() {
     function sleep(milliSeconds) {
         var startTime = new Date().getTime();
         while (new Date().getTime() < startTime + milliSeconds);
-    }
+    }    
 });
