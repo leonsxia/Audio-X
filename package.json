@@ -3,7 +3,7 @@
     "version": "0.0.1",
     "description": "audio-x project",
     "dependencies": {
-        "express": "^4.16.4",
+        "express": "^4.17.3",
         "pizzicato": "^0.6.4"
     }
 }
